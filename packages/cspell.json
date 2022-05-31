@@ -1,6 +1,6 @@
 {
   "ignorePaths": [
-    ".hidden/text.txt"
+    "./.hidden/text.txt"
   ],
   "words": [
     "ignoredword"
