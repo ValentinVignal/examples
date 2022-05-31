@@ -1,0 +1,5 @@
+This word should be ignored:
+ignoredword
+
+This word should not be ignored:
+badword

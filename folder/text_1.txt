@@ -1,0 +1,2 @@
+This entire file should be ignored
+badwordinignoredfile

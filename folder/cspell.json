@@ -1,0 +1,8 @@
+{
+  "ignorePaths": [
+    "text_1.txt"
+  ],
+  "words": [
+    "ignoredword"
+  ]
+}

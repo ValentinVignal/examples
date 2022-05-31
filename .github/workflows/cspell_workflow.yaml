@@ -1,0 +1,13 @@
+name: cSpell
+on: [pull_request]
+jobs:
+  cspell:
+    runs-on: ubuntu-latest
+    name: cspell
+    defaults:
+      run:
+        working-directory: folder # The entire project and configuration file are in the folder "folder".
+    steps:
+      - uses: actions/checkout@v2
+      - name: cspell
+        uses: streetsidesoftware/cspell-action@v1
