@@ -1,6 +1,6 @@
 {
   "ignorePaths": [
-    ".hidden/text.txt"
+    ".vscode/text.txt"
   ],
   "words": [
     "ignoredword"
