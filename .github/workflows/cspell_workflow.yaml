@@ -6,8 +6,8 @@ jobs:
     name: cspell
     defaults:
       run:
-        working-directory: folder/folder1 # The entire project and configuration file are in the folder "folder".
+        working-directory: packages/package # The entire project and configuration file are in the folder "packages/package".
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: cspell
-        uses: streetsidesoftware/cspell-action@v1
+        uses: streetsidesoftware/cspell-action@v2
