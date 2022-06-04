@@ -4,10 +4,9 @@ jobs:
   cspell:
     runs-on: ubuntu-latest
     name: cspell
-    defaults:
-      run:
-        working-directory: packages # The entire project and configuration file are in the folder "packages".
     steps:
       - uses: actions/checkout@v3
       - name: cspell
         uses: streetsidesoftware/cspell-action@v2
+        with:
+          root: packages
